@@ -14,7 +14,8 @@ html, body {
     margin: 30px auto;
 }
 .input-btn {
-    width: inherit;
+    max-width: inherit;
+    display: inherit;
 }
 img {
     width: 250px;
@@ -46,6 +47,7 @@ input {
     font-size: 20px;
     text-align: center;
     font-family: 'Rubik', sans-serif;
+    align-self: center;
 } 
 
 button img {
